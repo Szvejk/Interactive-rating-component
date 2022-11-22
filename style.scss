@@ -1,0 +1,72 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Overpass', sans-serif;
+	font-size: 15px;
+	background-color: hsl(216, 12%, 8%);
+	color: white;
+	main {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height: 100vh;
+	}
+	.firstBox {
+		width: 400px;
+		height: 400px;
+		background-color: hsl(213, 19%, 18%);
+		border-radius: 30px;
+		padding: 40px;
+		.star {
+			background-color: rgb(66, 66, 66);
+			height: 40px;
+			width: 40px;
+			border-radius: 50%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin: 10px;
+		}
+		.fotoStar {
+			height: 20px;
+			width: 20px;
+		}
+		.mainText {
+			padding: 10px;
+		}
+        .description {
+            line-height: 25px;
+            color: rgb(133, 135, 136);
+            margin-bottom: 30px;
+        }
+        .rating {
+            height: 80px;
+            align-items: center;
+			justify-content: center;
+            display: flex;
+            justify-content: space-around
+            
+        }
+        button {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            background-color: rgb(97, 97, 97);
+            color: white;
+            border-color: transparent
+        }
+        .submit {
+            margin:0 auto;
+            border-radius: 10px;
+            width: 300px;
+            background-color: rgb(211, 90, 9);
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+	}
+}
