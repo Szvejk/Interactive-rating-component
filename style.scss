@@ -65,7 +65,7 @@ body {
 			button:hover {
 				background-image: linear-gradient(
 					to right,
-					#af7427,
+					#f0a646,
 					#e49d33,
 					#c58026,
 					#b67c24
@@ -119,5 +119,8 @@ body {
                 text-align: center;
 			}
 		}
+        .hidden{
+            display: none;
+        }
 	}
 }

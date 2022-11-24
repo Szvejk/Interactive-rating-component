@@ -88,8 +88,8 @@ body main .firstBox button button:hover {
   background-color: rgb(233, 149, 70);
 }
 body main .firstBox button:hover {
-  background-image: -webkit-gradient(linear, left top, right top, from(#af7427), color-stop(#e49d33), color-stop(#c58026), to(#b67c24));
-  background-image: linear-gradient(to right, #af7427, #e49d33, #c58026, #b67c24);
+  background-image: -webkit-gradient(linear, left top, right top, from(#f0a646), color-stop(#e49d33), color-stop(#c58026), to(#b67c24));
+  background-image: linear-gradient(to right, #f0a646, #e49d33, #c58026, #b67c24);
   -webkit-box-shadow: 0 5px 15px rgba(242, 97, 103, 0.4);
           box-shadow: 0 5px 15px rgba(242, 97, 103, 0.4);
 }
@@ -143,4 +143,7 @@ body main .secondBox .thanks {
 body main .secondBox .secondDescription {
   line-height: 22px;
   text-align: center;
+}
+body main .hidden {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
