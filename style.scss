@@ -51,28 +51,28 @@ body {
 				display: flex;
 				justify-content: space-around;
 			}
-			button {
+			.btn {
 				height: 40px;
 				width: 40px;
 				border-radius: 50%;
-				background-color: rgb(97, 97, 97);
+				background-color: red;
 				color: white;
 				border-color: transparent;
-				button:hover {
-					background-color: rgb(233, 149, 70);
+
+				&:hover {
+					background-image: linear-gradient(
+						to right,
+						#f0a646,
+						#e49d33,
+						#c58026,
+						#b67c24
+					);
+					box-shadow: 0 5px 15px rgba(242, 97, 103, 0.4);
+				}
+				&.active {
+					color: green;
 				}
 			}
-			button:hover {
-				background-image: linear-gradient(
-					to right,
-					#f0a646,
-					#e49d33,
-					#c58026,
-					#b67c24
-				);
-				box-shadow: 0 5px 15px rgba(242, 97, 103, 0.4);
-			}
-
 			.submit {
 				margin: 0 auto;
 				border-radius: 10px;
@@ -116,11 +116,11 @@ body {
 			}
 			.secondDescription {
 				line-height: 22px;
-                text-align: center;
+				text-align: center;
 			}
 		}
-        .hidden{
-            display: none;
-        }
+		.hidden {
+			display: none;
+		}
 	}
 }
